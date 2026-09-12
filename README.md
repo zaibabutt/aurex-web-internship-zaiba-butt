@@ -4,17 +4,18 @@ aurex-web-internship-zaibabutt/
 
 Intern's Full Name: Zaiba
 Domain: Full-Stack Web Development
-Week Number: Week 1
+Week Number: Week 2
 
 ---
 
-## 📝 Week 1 Task Description
-This repository contains my tasks for Week 1 of the internship. I have set up my local development environment with VS Code and Git, and created a basic personal profile webpage using semantic HTML5 tags without any CSS styling.
+## 📝 Week 2 Task Description
+"This repository contains my tasks for Week 2 of the internship. I have upgraded my personal profile webpage by adding professional CSS styling, making it fully responsive using Flexbox and CSS Grid."
 
 ## 🛠️ Technologies Used
 - HTML5 (Semantic tags, forms, tables)
 - Git & GitHub
 - VS Code Editor
+- CSS3 (Flexbox & Grid)
 
 ## 🚀 How to Run the Project Locally
 Open the `index.html` file in any modern web browser like Google Chrome.
