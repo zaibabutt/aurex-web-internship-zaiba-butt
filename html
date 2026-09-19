@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zaiba's Portfolio</title>
-    <!-- Is line se aapka naya design jud jayega -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Week 3 Ke Liye Nayi CSS Files Ka Link -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
 </head>
 <body>
 
@@ -20,6 +21,7 @@
         <ul>
             <li><a href="#about">About Me</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -30,12 +32,11 @@
         <!-- About Me Section with Profile Picture -->
         <section id="about">
             <h2>About Me</h2>
-            <<!-- Is code se image har haal mein show ho jayegi -->
-<picture>
-    <source srcset="profile.jpeg" type="image/jpeg">
-    <img src="profile.jpg" alt="Zaiba's Profile Picture" class="profile-img">
-</picture>!-- Yeh line image add karegi. Image ka naam 'profile.jpg' rakhiye ga -->
-           
+            <!-- Yeh line image add karegi. Image ka naam 'profile.jpg' rakhiye ga -->
+            <picture>
+                <source srcset="profile.jpeg" type="image/jpeg">
+                <img src="profile.jpg" alt="Zaiba's Profile Picture" class="profile-img">
+            </picture>
             
             <p>Hi, I am Zaiba! I am a BS Computer Science student, currently entering my 5th semester. I am doing this web development internship at Aurex to learn how to build modern responsive websites.</p>
         </section>
@@ -52,11 +53,34 @@
             </ul>
         </section>
 
-        <!-- Education -->
+        <!-- New Project Showcase Section (Week 3 Task) -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Personal Portfolio Website built using Semantic HTML5 and responsive CSS Layouts.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Landing Page design with Flexbox alignment and beautiful fluid typography.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3</h3>
+                    <p>Interactive web application elements featuring advanced CSS Grid layouts.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section (UPDATED: Pyara aur Structured Look) -->
         <section id="education">
             <h2>Education</h2>
-            <p><strong>BS Computer Science</strong></p>
-            <p>Government College for Women (Affiliated with Punjab University) | 5th Semester (In Progress)</p>
+            <div class="education-card">
+                <div class="degree-title">⚠️ BS Computer Science</div>
+                <div class="institute-name">Government College for Women</div>
+                <div class="affiliation">(Affiliated with Punjab University)</div>
+                <div class="semester-status">📋 5th Semester (In Progress)</div>
+            </div>
         </section>
 
         <!-- Contact Form -->
