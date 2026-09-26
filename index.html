@@ -34,7 +34,7 @@
             <h2>About Me</h2>
             <!-- Yeh line image add karegi. Image ka naam 'profile.jpg' rakhiye ga -->
             <picture>
-                <source srcset="profile.jpg" type="image/jpg">
+                <source srcset="profile.jpeg" type="image/jpeg">
                 <img src="profile.jpg" alt="Zaiba's Profile Picture" class="profile-img">
             </picture>
             
@@ -89,7 +89,6 @@
             <form action="#" method="POST">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" required><br><br>
-
                 <label for="email">Email:</label><br>
                 <input type="email" id="email" name="email" required><br><br>
 
@@ -100,11 +99,44 @@
             </form>
         </section>
     </main>
+<!-- ==========================================
+     NEW: Week 4 Task Manager Section
+     ========================================== -->
+<section id="task-manager" class="task-manager-section">
+    <div class="section-heading">
+        <h2>🎯 Interactive Task Manager</h2>
+        <p>Week 4 Master Challenge: DOM Manipulation & LocalStorage Data Persistence</p>
+    </div>
 
+    <!-- Main Task App Card Box -->
+    <div class="task-card-box">
+        <!-- Input Form with Validation -->
+        <form id="task-form">
+            <div class="input-group">
+                <input type="text" id="task-input" placeholder="What internship task needs to be completed?" required>
+                <button type="submit" id="add-task-btn">Add Task</button>
+            </div>
+            <!-- Error message container -->
+            <p id="validation-error" class="error-msg"></p>
+        </form>
+
+        <!-- Dynamic Filtering Navigation Tabs -->
+        <div class="task-filters">
+            <button class="filter-btn active" data-filter="all">All Tasks</button>
+            <button class="filter-btn" data-filter="pending">Pending</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+
+        <!-- Dynamic Injection Target List -->
+        <ul id="task-list">
+            <!-- JavaScript will render individual items right here -->
+        </ul>
+    </div>
+</section>
     <!-- Footer Section -->
     <footer>
         <p>&copy; Created by Zaiba - 2026</p>
     </footer>
-
+    <script src="scripts/main.js"></script>
 </body>
 </html>
