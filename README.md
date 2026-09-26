@@ -1,31 +1,30 @@
-# 🚀 Frontend Foundation — Week 3 Master Challenge 🎯
+# 🚀 Aurex Web Development Internship — Zaiba Butt
 
 ## 👤 Intern's Personal Details
-* **✨ Full Name:** Zaiba Butt
-* **💻 Domain:** Full-Stack Web Development
-* **📅 Current Week:** Week Number 3 (Advanced CSS & Animations)
+*   **Full Name:** Zaiba Butt
+*   **Domain:** Full-Stack Web Development
+*   **Current Week:** Week Number 4 (DOM Manipulation & LocalStorage)
 
 ---
 
-## 📝 Task Overview
-In this Week 3 challenge, I have successfully upgraded my previous Week 2 responsive personal portfolio website by incorporating advanced CSS layouts, modular file structures, and interactive smooth animations. 🔥
-
-### 🛠️ Core Key Features Implemented:
-
-* **🧩 Advanced CSS Grid Layout:** Added a modern, multi-column **"My Projects" Showcase Gallery** using `grid-template-columns` with responsive `auto-fit` and `minmax(220px, 1fr)` properties.
-* **🎬 CSS Animations (@keyframes):** Integrated a smooth page-load animation (`fadeInUp`) that makes the main content slide up gracefully when the website opens.
-* **✨ Micro-interactions & Hover Effects:** 
-  - 📐 Created an elegant hover elevation effect (`translateY(-6px)`) with a soft purple shadow glow on all project cards.
-  - 👆 Added a smooth scaling button effect (`scale(1.03)`) for the contact form button.
-  - 🔗 Built a sleek animated sliding underline effect for the navigation links.
-* **📁 Professional Folder Restructuring:** Separated styles according to the production guidelines by creating a `styles` directory containing dedicated `main.css` and `animations.css` files.
-* **🎨 UI Enhancement:** Completely redesigned the **Education Section** into a modern, beautifully structured card interface featuring a vibrant purple accent border.
+## 🎯 Task Overview
+In this Week 4 challenge, I have upgraded my personal portfolio website by integrating a fully interactive, production-ready **Task Management Web Application (Todo App)** using pure Vanilla JavaScript, structural DOM elements, and browser storage persistence.
 
 ---
 
-## ⚙️ Technologies & Concepts Used
-* **🌐 HTML5** (Semantic Tags & Better SEO Structure)
-* **🎨 CSS3 Grid & Flexbox** (Advanced Layout Techniques)
-* **✨ Keyframe Animations** (For Interactive Micro-interactions)
-* **🐙 Git & GitHub** (Version Control & Folder Management)
+## 🛠️ Core Key Features Implemented
+
+*   **🎯 Task CRUD Engine:** Seamlessly Add, Edit, Delete, and Toggle completion states of interactive items within your daily workflow.
+*   **⚠️ Form Validation Layer:** Intercepts inputs dynamically. Empty fields or entries shorter than 5 characters are handled gracefully with custom runtime error messages.
+*   **💾 LocalStorage Data Persistence:** Tasks sync automatically down to the client-side browser cache storage so your information is completely preserved on page reloads.
+*   **🔍 State Filtering Controls:** Interactive navigation buttons filter the active display queue dynamically between `All Tasks`, `Pending`, or `Completed` item views.
+*   **🎨 Modular Theme Integration:** Maintained a clean, cohesive layout matching my signature purple branding aesthetic with elegant micro-interactions, responsive views, and sleek card shadows.
+
+---
+
+## 💻 Technologies & Concepts Used
+*   **HTML5** (Semantic structures & Interactive validation forms)
+*   **CSS3** (Flexbox design viewports & Custom state classes)
+*   **Vanilla JavaScript** (Dynamic DOM parsing, element selectors, array functions, & event handling logic loops)
+*   **Browser Web Storage API** (`localStorage` caching routines)
 *
